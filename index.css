@@ -213,3 +213,33 @@ textarea {
     border-radius: 5px;
     resize: none; /* Prevent resizing */
 }
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
